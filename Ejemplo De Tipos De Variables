@@ -1,0 +1,19 @@
+Instrucciones MikroC
+PIC 16F887
+
+Tipos De Datos
+
+bit a;
+char b = 'k';
+char x = 0b01111000;
+int d = 123;
+int e = -43;
+unsigned int f = 456;
+unsigned int g = -14; //esto no se puede porque no tiene signo
+short h = 0x43; el tipo short varia de -128 a 127
+unsigned shot i 0x16 //no puede declarar valores negativos
+long j = 1436789;
+unsigned long a = 3753159;
+
+//* Todas Estas Variables Se Conocen Como Variables Globales: Las Variables Goblales Son Aquellas Que Existen En Todo El Programa,
+Es La Misma En Cada Funcion Subrutina*//
